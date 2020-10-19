@@ -1,0 +1,48 @@
+.main_container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #333333;
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 8%;
+    background-color: #CCCCCC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding-left: 30px; */
+    font-size: 1.5rem;
+}
+
+.header span {
+    margin-left: 30px;
+}
+
+.body{
+    width: 100%;
+    height: 92%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graph_container{
+    width: 95%;
+    height: 90%;
+    background-color: #A7A7AE;
+    overflow: hidden;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+@media (min-width: 360px) and (max-width: 640px){
+    .header{
+        font-size: 1rem;
+    }
+    .header span {
+        margin-left: 10px;
+    }
+}
